@@ -1,0 +1,129 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', sans-serif;
+ }
+
+ body {
+    background-image: url("/fundo/cad.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .logo {
+   position: absolute;
+   top: 30px;
+   left: 40px;
+   font-size: 28px;
+   font-weight: bold;
+   color: white;
+ }
+
+ #logo{
+  width: 80px;
+ }
+
+ .card {
+   width: 420px;
+   background: rgba(255, 255, 255, 0.25);
+   padding: 40px 30px;
+   border-radius: 20px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+   text-align: center;
+ }
+
+ .card h1 {
+   color: white;
+   margin-bottom: 30px;
+   font-size: 28px;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+ .input-group {
+   position: relative;
+   margin-bottom: 20px;
+ }
+
+ .input-group i {
+   position: absolute;
+   left: 15px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #555;
+ }
+
+ .input-group input {
+   width: 100%;
+   padding: 12px 12px 12px 40px;
+   border-radius: 12px;
+   border: none;
+   outline: none;
+   background: #cdd8e3;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+   font-weight: 500;
+ }
+
+ .checkbox {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-bottom: 20px;
+   font-size: 14px;
+   color: white;
+ }
+
+ .checkbox input {
+   margin-right: 8px;
+ }
+
+ .checkbox a {
+   color: #004aad;
+   text-decoration: none;
+   font-weight: 600;
+ }
+
+ .btn {
+   width: 100%;
+   padding: 12px;
+   border: none;
+   border-radius: 20px;
+   background: #ff8c00;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   margin-bottom: 10px;
+   transition: 0.3s;
+ }
+
+ .btn:hover {
+   background: #693a00;
+ }
+
+ .btn-secondary {
+   background: #ff8c00;
+ }
+
+ .btn-secondary:hover{
+  background: #693a00;
+ }
+
+ .footer {
+   margin-top: 20px;
+   font-size: 14px;
+   color: white;
+ }
+
+ .footer a {
+   color: #ff8c00;
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+ .terms,.terms a{
+  color: black;
+  text-decoration: dotted;
+ }
