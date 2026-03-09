@@ -1,0 +1,50 @@
+<mat-toolbar>
+
+  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+    aria-controls="offcanvasExample"
+    style="background: transparent; border-color: transparent; color: var(--text-color);"><mat-icon>density_medium</mat-icon></a>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Configurações</h5>
+
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+
+      <div class="btn-sobre">
+        <button mat-button class="sobre" routerLink="/sobre">
+          <mat-icon>error</mat-icon>
+          Sobre
+        </button>
+      </div>
+
+    </div>
+
+    <div class="btn-modo">
+      <h2>Modo Escuro</h2>
+      <mat-slide-toggle (change)="toggleTheme($event)"></mat-slide-toggle>
+    </div>
+  </div>
+
+  <img src="/logo/logo.png" alt="Logo" id="logo">
+
+  <h5 class="nome">BeachUp</h5>
+
+  <span class="spacer"></span>
+
+  <div class="nav-links">
+    <a mat-button routerLink="/home">
+      <mat-icon>home</mat-icon>
+      Home
+    </a>
+
+    <a mat-button routerLink="/cadastrar">
+      <mat-icon>person_add</mat-icon>
+      Cadastrar-se
+    </a>
+
+  </div>
+
+</mat-toolbar>

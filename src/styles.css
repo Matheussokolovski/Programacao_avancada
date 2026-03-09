@@ -1,0 +1,47 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1e293b;
+  --primary-color: #e97c23;
+}
+
+body {
+  background-image: url('/fundo/wallpaper_light.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-color);
+  transition: 0.3s ease;
+}
+
+.dark-mode {
+  --bg-color: #000000f0;
+  --text-color: #bfbfbf;
+  --primary-color: #e97c23;
+
+}
+
+body.dark-mode {
+  background-image: url('/fundo/wallpaper_dark.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-color);
+  transition: 0.3s ease;
+}
+
+
+/* body {
+  margin: 0;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+} */
