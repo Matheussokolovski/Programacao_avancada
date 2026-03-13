@@ -60,4 +60,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 =======
 # BeachUp
->>>>>>> 2b6705c3d6f31d3adfb1735b5cc037ef2164d9be
+>>>>>>> 87a570a9d6d39b7996e08f36e1d91563ee92b711
